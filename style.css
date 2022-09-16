@@ -2,3 +2,18 @@ div {
     margin: 20px;
 }
 
+#email:valid,
+#country:valid,
+#postal:valid,
+#password:valid,
+#passwordCheck:valid {
+    border: green solid 4px;
+}
+
+#email:invalid,
+#country:invalid,
+#postal:invalid,
+#password:invalid,
+#passwordCheck:invalid {
+    border: red solid 4px;
+}
